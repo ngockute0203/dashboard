@@ -4,9 +4,13 @@ import FuseUtils from '@fuse/utils';
 import i18next from 'i18next';
 import _ from '@lodash';
 
+
 const navigationAdapter = createEntityAdapter();
 const emptyInitialState = navigationAdapter.getInitialState();
 const initialState = navigationAdapter.upsertMany(emptyInitialState, navigationConfig);
+
+
+
 
 export const appendNavigationItem = (item, parentId) => (dispatch, getState) => {
   const navigation = selectNavigationAll(getState());
@@ -37,6 +41,7 @@ export const {
   selectIds: selectNavigationIds,
   selectById: selectNavigationItemById,
 } = navigationAdapter.getSelectors((state) => state.fuse.navigation);
+
 
 const navigationSlice = createSlice({
   name: 'navigation',

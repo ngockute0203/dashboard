@@ -127,11 +127,6 @@ function NotificationPanel(props) {
           </Typography>
         </div>
       )}
-      <div className="flex items-center justify-center py-16">
-        <Button size="small" variant="outlined" onClick={demoNotification}>
-          Create a notification example
-        </Button>
-      </div>
     </StyledSwipeableDrawer>
   );
 }

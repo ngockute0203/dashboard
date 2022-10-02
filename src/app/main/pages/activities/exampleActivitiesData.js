@@ -11,7 +11,7 @@ const exampleActivitiesData = [
   },
   {
     id: '6e3e97e5-effc-4fb7-b730-52a151f0b641',
-    image: 'assets/images/avatars/male-04.jpg',
+    image: 'assets/images/avatars/ngoc.jpg',
     description:
       '<strong>Leo Gill</strong> added you to <strong>Top Secret Project</strong> group and assigned you as a <strong>Project Manager</strong>',
     date: sub(new Date(), { minutes: 50 }),

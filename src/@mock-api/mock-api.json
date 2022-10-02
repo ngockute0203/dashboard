@@ -5495,7 +5495,7 @@
             "id": "cfaad35d-07a3-4447-a6c3-d8c3d54fd5df",
             "name": "Brian Hughes",
             "email": "hughes.brian@company.com",
-            "avatar": "assets/images/avatars/brian-hughes.jpg",
+            "avatar": "assets/images/avatars/ngoc.jpg",
             "about": "Hi there! I'm using FuseChat."
           }
         }
@@ -7320,9 +7320,9 @@
             "password": "admin",
             "role": "admin",
             "data": {
-              "displayName": "Abbott Keitch",
-              "photoURL": "assets/images/avatars/brian-hughes.jpg",
-              "email": "admin@fusetheme.com",
+              "displayName": "Ngọc Kute",
+              "photoURL": "assets/images/avatars/ngoc.jpg",
+              "email": "riddnicky0203@gmail.com",
               "settings": {
                 "layout": {},
                 "theme": {}
@@ -7559,7 +7559,7 @@
                 "id": "3",
                 "user": {
                   "name": "Garry Newman",
-                  "avatar": "assets/images/avatars/male-04.jpg"
+                  "avatar": "assets/images/avatars/ngoc.jpg"
                 },
                 "message": "shared a public post with your group.",
                 "time": "June 9,2015"
@@ -8042,7 +8042,7 @@
           },
           {
             "id": "a7806ced-03f1-4197-8b30-00bdd463366b",
-            "avatar": "assets/images/avatars/male-04.jpg",
+            "avatar": "assets/images/avatars/ngoc.jpg",
             "background": "assets/images/cards/17-640x480.jpg",
             "name": "Marsh Cochran",
             "emails": [
@@ -9928,7 +9928,7 @@
           },
           {
             "id": "bedcb6a2-da83-4631-866a-77d10d239477",
-            "avatar": "assets/images/avatars/male-04.jpg",
+            "avatar": "assets/images/avatars/ngoc.jpg",
             "background": "assets/images/cards/19-640x480.jpg",
             "name": "Alvarado Turner",
             "emails": [
@@ -13564,7 +13564,7 @@
           },
           {
             "id": "a7806ced-03f1-4197-8b30-00bdd463366b",
-            "avatar": "assets/images/avatars/male-04.jpg",
+            "avatar": "assets/images/avatars/ngoc.jpg",
             "name": "Marsh Cochran",
             "about": "Hi there! I'm using FuseChat.",
             "status": "online",
@@ -16165,7 +16165,7 @@
           },
           {
             "id": "bedcb6a2-da83-4631-866a-77d10d239477",
-            "avatar": "assets/images/avatars/male-04.jpg",
+            "avatar": "assets/images/avatars/ngoc.jpg",
             "name": "Alvarado Turner",
             "about": "Hi there! I'm using FuseChat.",
             "status": "do-not-disturb",
@@ -17172,7 +17172,7 @@
           "name": "Brian Hughes",
           "email": "hughes.brian@company.com",
           "status": "online",
-          "avatar": "assets/images/avatars/brian-hughes.jpg",
+          "avatar": "assets/images/avatars/ngoc.jpg",
           "about": "Hi there! I'm using FuseChat."
         }
       },
@@ -22011,7 +22011,7 @@
           {
             "id": "0d1eb062-13d5-4286-b8d4-e0bea15f3d56",
             "name": "Baldwin Stein",
-            "avatar": "assets/images/avatars/male-04.jpg"
+            "avatar": "assets/images/avatars/ngoc.jpg"
           },
           {
             "id": "5bf7ed5b-8b04-46b7-b364-005958b7d82e",
@@ -22946,7 +22946,7 @@
             "id": "a307d83b-d256-4af5-948a-148878a7eaad",
             "type": "mail",
             "from": {
-              "avatar": "assets/images/avatars/male-04.jpg",
+              "avatar": "assets/images/avatars/ngoc.jpg",
               "contact": "Rice Cash <rice.cash@company.com>"
             },
             "to": "me <hughes.brian@company.com>",
@@ -24001,7 +24001,7 @@
             "id": "bd7ac4df-77fa-45da-8eaf-31303ba794c4",
             "type": "mail",
             "from": {
-              "avatar": "assets/images/avatars/male-04.jpg",
+              "avatar": "assets/images/avatars/ngoc.jpg",
               "contact": "Barber Zimmerman <barber.zimmerman@company.com>"
             },
             "to": "me <hughes.brian@company.com>",
@@ -24982,7 +24982,7 @@
             "id": "8749e3bc-24b3-43f3-997b-ee0b5bd7a442",
             "type": "mail",
             "from": {
-              "avatar": "assets/images/avatars/male-04.jpg",
+              "avatar": "assets/images/avatars/ngoc.jpg",
               "contact": "Cole Dotson <cole.dotson@company.com>"
             },
             "to": "me <hughes.brian@company.com>",
@@ -32274,7 +32274,7 @@
               "id": "3",
               "user": {
                 "name": "Garry Newman",
-                "avatar": "assets/images/avatars/male-04.jpg"
+                "avatar": "assets/images/avatars/ngoc.jpg"
               },
               "message": "shared a public post with your group.",
               "time": "June 9,2015"
@@ -32641,9 +32641,9 @@
             "password": "admin",
             "role": "admin",
             "data": {
-              "displayName": "Abbott Keitch",
-              "photoURL": "assets/images/avatars/brian-hughes.jpg",
-              "email": "admin@fusetheme.com",
+              "displayName": "Ngọc Kute",
+              "photoURL": "assets/images/avatars/ngoc.jpg",
+              "email": "riddnicky0203@gmail.com",
               "settings": {
                 "layout": {},
                 "theme": {}
@@ -32708,7 +32708,7 @@
           },
           {
             "id": "6e3e97e5-effc-4fb7-b730-52a151f0b641",
-            "image": "assets/images/avatars/male-04.jpg",
+            "image": "assets/images/avatars/ngoc.jpg",
             "description": "<strong>Leo Gill</strong> added you to <em>Top Secret Project</em> group and assigned you as a <em>Project Manager</em>",
             "time": "2022-05-09T10:07:42.703Z",
             "read": true,

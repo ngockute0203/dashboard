@@ -85,7 +85,7 @@ const initialState = {
   role: [], // guest
   data: {
     displayName: 'John Doe',
-    photoURL: 'assets/images/avatars/brian-hughes.jpg',
+    photoURL: 'assets/images/avatars/ngoc.jpg',
     email: 'johndoe@withinpixels.com',
     shortcuts: ['apps.calendar', 'apps.mailbox', 'apps.contacts', 'apps.tasks'],
   },

@@ -3,9 +3,68 @@ import ar from './navigation-i18n/ar';
 import en from './navigation-i18n/en';
 import tr from './navigation-i18n/tr';
 
+import React from "react";
+import { useState, useEffect } from "react";
+import { collection, query, orderBy, onSnapshot } from "firebase/firestore";
+import dbf from '../../firebase.config';
 i18next.addResourceBundle('en', 'navigation', en);
 i18next.addResourceBundle('tr', 'navigation', tr);
 i18next.addResourceBundle('ar', 'navigation', ar);
+
+
+
+
+// const laydulieu = () =>{
+
+//   firebase.dbf().ref('/users').orderByChild('email').equalTo(userEmail).on('value', snapshot => {
+//     snapshot.forEach(userSnapshot => {
+//         let data = userSnapshot.val();
+//         console.log('data: ', data);
+//         console.log(data.email, data.firstname);
+//     });
+// })
+
+
+//   const [database, setDatabase] = useState([]);
+
+//   useEffect(() => {
+//     const q = query(collection(dbf, "nav"), orderBy("id", "title"));
+//     onSnapshot(q, (querySnapshot) => {
+//       setDatabase(
+//         querySnapshot.docs.map((doc) => ({
+//           data: doc.data()
+//         }))
+//       );
+//     });
+//   }, []);
+
+//   console.log(database);
+//   return (
+//     <ul className="comments-list">
+//       {database.map((v, i) => {
+//         return (
+//           <li key={i} x-data="ReplyBoxComment()" className="is-pinned">
+//             {v.data.translate}
+//           </li>
+//         );
+//       })}
+//     </ul>
+//   );
+// }
+
+
+
+const q = query(collection(dbf, "nav"));
+    onSnapshot(q, (querySnapshot) => {
+      setDatabase(
+        querySnapshot.docs.map((doc) => ({
+          data: doc.data()
+        }))
+      );
+    });
+
+// const navigationConfig = q;
+
 
 const navigationConfig = [
   {
@@ -129,7 +188,7 @@ const navigationConfig = [
         url: '/apps/file-manager',
         end: true,
         translate: 'FILE_MANAGER',
-      },
+      },  
       {
         id: 'apps.help-center',
         title: 'Help Center',
